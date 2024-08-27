@@ -1,2 +1,0 @@
-# teamaryansracing.in
-HIIIII
