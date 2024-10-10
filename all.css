@@ -1,3 +1,4 @@
+
 /* Global Styles */
 * {
     margin: 0;
@@ -293,5 +294,106 @@ header {
 @media (max-width: 768px) {
     .about-item {
         width: 100%;
+    }
+}
+/* Mobile Media Queries */
+@media (max-width: 576px) {
+    /* Adjust header container for small screens */
+   * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    .container {
+        flex-direction: row;
+        align-items: center;
+        width: 120px;
+         display: flex;
+    justify-content: space-between; /* Align items on opposite sides */
+
+    }
+
+    .logo img {
+        width: 80px;
+        text-align: left;
+       ;
+         position: relative; /* Position the element relative to its normal position */
+    right: 125px;
+    }
+    header{ 
+        .navbar h1 {
+        font-size: 20px; /* Adjust font size for smaller screens */
+        text-align: left; /* Center align text */
+        margin: 0; /* Remove any default margin */
+            position: relative; /* Position the element relative to its normal position */
+    right: 75px;
+    }
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+       
+    }
+    .support-btn {
+         position: relative;
+        right: 25px;
+    }
+
+    .cta button {
+        width: 100%;
+        margin-top: 15px;
+        
+    }
+
+    /* Adjust tier cards for small screens */
+    .tiers-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tier-card {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    /* Investment breakdown adjustments */
+    .breakdown-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .breakdown-text {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    /* Contact Us Section for mobile */
+    .contact-map-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .contact-container {
+        width: 100%;
+    }
+
+  
+    .map-container iframe {
+    width: 100%; /* Makes the map take 100% of the container’s width */
+    height: 450px; /* Adjust the height as needed */
+    border: 0; /* Removes the border around the iframe */
+}
+
+    /* About Section for mobile */
+    .about-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-item {
+        width: 100%;
+        max-width: 300px;
     }
 }
