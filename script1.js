@@ -2,7 +2,7 @@
 const investmentData = {
     labels: [
         'College Contribution (62%)',
-        'Student Contribution (07%)',
+        'Student Contribution (7%)',
         'Audience Contribution (31%)'
     ],
     datasets: [{
