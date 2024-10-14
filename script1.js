@@ -7,7 +7,7 @@ const investmentData = {
     ],
     datasets: [{
         label: 'Investment Breakdown',
-        data: [31, 07, 62], // Percentage values
+        data: [62, 07, 31], // Percentage values
         backgroundColor: ['#FFFBE6', '#ffce56', '#ff6384'] // Colors for each section
     }]
 };
