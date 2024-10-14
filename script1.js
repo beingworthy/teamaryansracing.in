@@ -1,13 +1,13 @@
 // Data for the Investment Breakdown pie chart
 const investmentData = {
     labels: [
-        'College Contribution (53%)',
-        'Student Contribution (14%)',
-        'Audience Contribution (33%)'
+        'College Contribution (62%)',
+        'Student Contribution (07%)',
+        'Audience Contribution (31%)'
     ],
     datasets: [{
         label: 'Investment Breakdown',
-        data: [33, 14, 53], // Percentage values
+        data: [31, 07, 62], // Percentage values
         backgroundColor: ['#FFFBE6', '#ffce56', '#ff6384'] // Colors for each section
     }]
 };
